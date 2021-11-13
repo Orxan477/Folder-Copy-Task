@@ -1,0 +1,14 @@
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\bin\Debug\netcoreapp3.1\FolderTask.exe
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\bin\Debug\netcoreapp3.1\FolderTask.deps.json
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\bin\Debug\netcoreapp3.1\FolderTask.runtimeconfig.json
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\bin\Debug\netcoreapp3.1\FolderTask.runtimeconfig.dev.json
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\bin\Debug\netcoreapp3.1\FolderTask.dll
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\bin\Debug\netcoreapp3.1\FolderTask.pdb
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\obj\Debug\netcoreapp3.1\FolderTask.csproj.AssemblyReference.cache
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\obj\Debug\netcoreapp3.1\FolderTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\obj\Debug\netcoreapp3.1\FolderTask.AssemblyInfoInputs.cache
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\obj\Debug\netcoreapp3.1\FolderTask.AssemblyInfo.cs
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\obj\Debug\netcoreapp3.1\FolderTask.csproj.CoreCompileInputs.cache
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\obj\Debug\netcoreapp3.1\FolderTask.dll
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\obj\Debug\netcoreapp3.1\FolderTask.pdb
+C:\Users\Orxan477\source\repos\FolderTask\FolderTask\obj\Debug\netcoreapp3.1\FolderTask.genruntimeconfig.cache
