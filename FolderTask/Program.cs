@@ -59,12 +59,12 @@ namespace FolderTask
         /// <param name="newdirectory">Includes the location of the new folder where the project is currently located</param>
         public static void CopyRekursiv(string current, string newdirectory)
         {
-            //Folder
-            foreach (string folder in Directory.GetDirectories(current, "*", SearchOption.AllDirectories))
+            //Folder Copy
+            foreach (string folder in Directory.GetDirectories(current,newdirectory,SearchOption.AllDirectories))
             {
                 Directory.CreateDirectory(folder.Replace(current, newdirectory));
             }
-            //File
+            //File Copy
             foreach (string file in Directory.GetFiles(current, "*.*",SearchOption.AllDirectories))
             {
                 File.Copy(file, file.Replace(current, newdirectory), true);
