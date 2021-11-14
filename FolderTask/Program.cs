@@ -60,7 +60,7 @@ namespace FolderTask
         public static void CopyRekursiv(string current, string newdirectory)
         {
             //Folder Copy
-            foreach (string folder in Directory.GetDirectories(current,newdirectory,SearchOption.AllDirectories))
+            foreach (string folder in Directory.GetDirectories(current, "*.*", SearchOption.AllDirectories))
             {
                 Directory.CreateDirectory(folder.Replace(current, newdirectory));
             }
