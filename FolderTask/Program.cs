@@ -17,7 +17,7 @@ namespace FolderTask
                 Console.WriteLine("'Testing' Folder Removed");
                 Console.WriteLine("-----------------------------");
             }
-            Directory.CreateDirectory(@"Testing");
+            Directory.CreateDirectory(TestingInfo.FullName);
             Console.WriteLine("'Testing' Folder Created");
             // We create folders in the test folder.
             Directory.CreateDirectory(@"Testing/FolderCheck1/FolderCheck2/FolderCheck3");
@@ -36,15 +36,15 @@ namespace FolderTask
             Console.WriteLine("'OrxanAzTU.html', 'Check1.html', 'Check2.txt' and 'Check3.txt' Files Created");
             Console.WriteLine("---------------------------------------------------------------------------------");
             // We specify the location of the folder to be copied.
-            string NewDirectory = Path.Combine(CurrentDirectory, "TestingCopy");          
+            string NewDirectory = Path.Combine(CurrentDirectory, "TestingCopy");
             DirectoryInfo NewDirectoryInfo = new DirectoryInfo(NewDirectory);
             // If we check if there is a folder to be copied, we delete it and re-create it.
             if (NewDirectoryInfo.Exists)
-            {                
-                Directory.Delete(NewDirectoryInfo.FullName,true);
+            {
+                Directory.Delete(NewDirectoryInfo.FullName, true);
                 Console.WriteLine("'TestingCopy' Folder Removed");
                 Console.WriteLine("---------------------------------");
-            }          
+            }
             Directory.CreateDirectory(NewDirectoryInfo.FullName);
             Console.WriteLine("'TestingCopy' Folder Created");
             CopyRekursiv("Testing", NewDirectory);
@@ -65,7 +65,7 @@ namespace FolderTask
                 Directory.CreateDirectory(folder.Replace(current, newdirectory));
             }
             //File Copy
-            foreach (string file in Directory.GetFiles(current, "*.*",SearchOption.AllDirectories))
+            foreach (string file in Directory.GetFiles(current, "*.*", SearchOption.AllDirectories))
             {
                 File.Copy(file, file.Replace(current, newdirectory), true);
             }
